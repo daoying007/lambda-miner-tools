@@ -1,7 +1,14 @@
 # Lambda矿工工具
 
-主要功能：自动化定时（每半小时）指定一个卖单进行订单匹配并且上传文件
+作者：daoying007 <daoying007@gmail.com>
 
+作者 ETH 地址：`0xC53D71abA6C29F284836d76Df75a4967Cd96acf9` 欢迎打赏
+
+## 主要功能
+自动化定时（每半小时）指定一个卖单进行订单匹配并且上传文件
+
+
+## 使用说明
 
 1. 进入 `lambda_miner_0.1.1` 下的 `fillbid` 目录
 ```bash
@@ -25,3 +32,9 @@ curl -fsSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/maste
 ```bash
 tail -f -n 500 fillbid.log
 ```
+
+## daoying007 开发的其他Lambda挖矿工具
+
+1. Lambda 挖矿程序 docker 镜像
+github地址：https://github.com/daoying007/lambda-miner-docker
+Docker Hub 地址：https://hub.docker.com/r/daoying007/lambda-miner/
