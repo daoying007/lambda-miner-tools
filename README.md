@@ -33,6 +33,11 @@ curl -fsSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/maste
 tail -f -n 500 fillbid.log
 ```
 
+5. 停止刷单命令：
+```
+./shutdown_fillbid_match.sh
+```
+
 ## daoying007 开发的其他Lambda挖矿工具
 
 1. Lambda 挖矿程序 docker 镜像，github地址：https://github.com/daoying007/lambda-miner-docker
