@@ -4,5 +4,3 @@ curl -fSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/master
 chmod +x fillbid_match.sh
 chmod +x start_fillbid_match.sh
 chmod +x shutdown_fillbid_match.sh
-
-echo "parameters: $1 $2"
