@@ -35,6 +35,5 @@ tail -f -n 500 fillbid.log
 
 ## daoying007 开发的其他Lambda挖矿工具
 
-1. Lambda 挖矿程序 docker 镜像
-github地址：https://github.com/daoying007/lambda-miner-docker
-Docker Hub 地址：https://hub.docker.com/r/daoying007/lambda-miner/
+1. Lambda 挖矿程序 docker 镜像，github地址：https://github.com/daoying007/lambda-miner-docker
+2. Lambda 挖矿程序 docker 镜像，Docker Hub 地址：https://hub.docker.com/r/daoying007/lambda-miner/
