@@ -1,4 +1,4 @@
-# Lambda矿工自动化定时刷单工具
+# Lambda矿工自动化定时定向刷单工具
 
 作者：daoying007 <daoying007@gmail.com>
 
