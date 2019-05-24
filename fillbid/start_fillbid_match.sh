@@ -18,4 +18,5 @@ fi
 work_path=$(dirname $(readlink -f $0))
 
 bash ./shutdown_fillbid_match.sh
-crontab -l > conf && echo "*/30 * * * * $work_path/fillbid_match.sh ${askid} ${account} ${password}" >> conf && crontab conf && rm -f conf
+crontab -l > conf && echo "*/5 * * * * $work_path/fillbid_match.sh ${askid} ${account} ${password}" >> conf && crontab conf && rm -f conf
+echo '已添加计划任务，可以运行 crontab -l 查看计划任务'

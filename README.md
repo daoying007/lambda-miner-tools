@@ -23,12 +23,16 @@ curl -fsSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/maste
 
 3. 启动定时刷单脚本
 ```bash
-./start_fillbid_match.sh [askid] [name]
+./start_fillbid_match.sh askid name
 ```
-命令行中的`[askid]`改成你需要刷的卖单id，`[name]`改成你的Lambda账号名
+命令行中的 `askid` 改成你需要刷的卖单id，`name` 改成你的Lambda账号名
 然后输入Lambda账号的密码，回车
 
-4. 刷单脚本每半小时刷一次，半小时后查看刷单日志，看是否有正常刷单
+如显示类似 `crontab: no crontab for ubuntu` 这样的信息可以忽略
+完成后，可以运行 `crontab -l`，如看到类似如下文字表示计划任务已添加成功
+`*/1 * * * * /home/ubuntu/lambda_miner_0.1.1/fillbid/fillbid_match.sh 8d50c73b77ca983536a6df5069bf7b4dcc589d48 账号名 密码`
+
+4. 刷单脚本每5分钟刷一次，5分钟后查看刷单日志，看是否有正常刷单
 ```bash
 tail -f -n 500 fillbid.log
 ```
