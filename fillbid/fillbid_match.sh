@@ -18,7 +18,7 @@ price=$(rand 4 10)
 duration=$(rand 30 60)
 
 date >> $work_path/fillbid.log
-echo "../lambda file put ${account} ./test${idx}.file ${price} ${duration}" >> $work_path/fillbid.log
-echo $password | $work_path/../lambda file match $account $work_path/test${idx}.file  ${duration} ${askid} >> $work_path/fillbid.log 2>&1
+echo "../lambda file match ${account} $work_path/test${idx}.file ${duration} ${askid}" >> $work_path/fillbid.log
+echo $password | $work_path/../lambda file match $account $work_path/test${idx}.file ${duration} ${askid} >> $work_path/fillbid.log 2>&1
 
 exit 0
