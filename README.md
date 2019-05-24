@@ -35,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/maste
 
 完成后，可以运行 `crontab -l`，如看到类似如下文字表示计划任务已添加成功
 
-`*/1 * * * * /home/ubuntu/lambda_miner_0.1.1/fillbid/fillbid_match.sh 8d50c73b77ca983536a6df5069bf7b4dcc589d48 账号名 密码`
+`*/5 * * * * /home/ubuntu/lambda_miner_0.1.1/fillbid/fillbid_match.sh 8d50c73b77ca983536a6df5069bf7b4dcc589d48 账号名 密码`
 
 
 4. 刷单脚本每5分钟刷一次，5分钟后查看刷单日志，看是否有正常刷单
