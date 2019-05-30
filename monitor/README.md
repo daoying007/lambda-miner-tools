@@ -30,6 +30,7 @@ curl -fsSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/maste
 命令行中的 `name` 改成你的Lambda账号名，回车，然后输入Lambda账号的密码
 
 
+
 ## daoying007 开发的其他Lambda挖矿工具
 
 1. lambda挖矿自动化定时刷单工具，使用文档：https://github.com/daoying007/lambda-miner-tools/blob/master/fillbid/README.md

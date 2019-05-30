@@ -49,6 +49,8 @@ tail -f -n 500 fillbid.log
 ./shutdown_fillbid_match.sh
 ```
 
+
+
 ## daoying007 开发的其他Lambda挖矿工具
 
 1. lambda挖矿自动化定时刷单工具，使用文档：https://github.com/daoying007/lambda-miner-tools/blob/master/fillbid/README.md
