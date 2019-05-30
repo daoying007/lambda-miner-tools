@@ -23,7 +23,7 @@ curl -fsSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/maste
 等待下载安装完成
 
 
-3. 启动定时刷单脚本
+1. 启动监控脚本
 ```bash
 ./start_monitor.sh name
 ```
