@@ -31,7 +31,7 @@ curl -fsSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/maste
 
 
 
-## daoying007 开发的其他Lambda挖矿工具
+## daoying007 开发的Lambda挖矿工具
 
 1. lambda挖矿自动化定时刷单工具，使用文档：https://github.com/daoying007/lambda-miner-tools/blob/master/fillbid/README.md
 2. 解决了官方挖矿进程偶尔异常挂掉的问题（自动化每分钟检查一次，挖矿进程异常挂掉时会自动重启），使用文档：https://github.com/daoying007/lambda-miner-tools/blob/master/monitor/README.md
