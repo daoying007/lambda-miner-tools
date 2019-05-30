@@ -25,9 +25,14 @@ curl -fsSL https://raw.githubusercontent.com/daoying007/lambda-miner-tools/maste
 
 3. 启动定时刷单脚本
 ```bash
-./monitor.sh name
+./start_monitor.sh name
 ```
 命令行中的 `name` 改成你的Lambda账号名，回车，然后输入Lambda账号的密码
+
+4. 停止刷单命令：
+```
+./shutdown_monitor.sh
+```
 
 
 

@@ -20,8 +20,8 @@ work_path=$(dirname $(readlink -f $0))
 LOCK_FILE="$work_path/monitor-init.lock"
 if [ ! -f $LOCK_FILE ]; then
     touch $LOCK_FILE
-    crontab -l > conf && echo "*/1 * * * * $work_path/monitor.sh ${account} ${password}" >> conf && crontab conf && rm -f conf
-    echo '添加自动监控任务成功，系统会每分钟检查一次，如发现lambda挖矿进程挂掉，会自动重启，监控日志存放在 lambda-monitor.log'
+    crontab -l > conf && echo "*/1 * * * * $work_path/start_monitor.sh ${account} ${password}" >> conf && crontab conf && rm -f conf
+    echo '添加自动监控任务成功，系统会每分钟检查一次，如发现lambda挖矿进程挂掉，会自动重启，监控重启日志存放在 lambda-monitor.log'
 fi
 
 # 监控进程
