@@ -45,7 +45,7 @@ Escape character is '^]'.
 
 ### 第四步：配置【自有路由器】的DMZ
 ！！！如果你的矿机是直接连光猫的（没有经过路由器），可以忽略本步骤。
-将路由器的DMZ主机配置成你的矿机内网IP
+将路由器的DMZ主机配置成你的矿机内网IP，以下是我的路由配置DMZ的地方。不同的路由器配置略有差异，需要自己去找到自己路由器配置DMZ的地方。
 ![自有路由器DMZ配置](https://raw.githubusercontent.com/daoying007/lambda-miner-tools/master/network-config/images/3.png)
 如果配置后没有生效，可以试下重启路由器。
 
@@ -71,7 +71,8 @@ Escape character is '^]'.
 4. 如果你的矿机的直连光猫的，那么上面光猫DMZ的IP请设置成你的矿机IP。
 
 
-## daoying007 原创的Lambda挖矿工具、教程
+
+## 更多 daoying007 原创Lambda挖矿工具、教程
 
 1. Lambda矿工自动化定时定向刷单工具及使用方法：https://github.com/daoying007/lambda-miner-tools/blob/master/fillbid/README.md
 2. 解决官方挖矿进程偶尔异常挂掉工具及使用方法：https://github.com/daoying007/lambda-miner-tools/blob/master/monitor/README.md
