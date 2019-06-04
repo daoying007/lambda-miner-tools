@@ -45,6 +45,7 @@ Escape character is '^]'.
 
 ### 第四步：配置【自有路由器】的DMZ
 ！！！如果你的矿机是直接连光猫的（没有经过路由器），可以忽略本步骤。
+![自有路由器DMZ配置](https://raw.githubusercontent.com/daoying007/lambda-miner-tools/master/network-config/images/1.png)
 如果配置后没有生效，可以试下重启路由器。
 
 
@@ -55,6 +56,7 @@ Escape character is '^]'.
 1. 打开【光猫路由器】配置网址：http://192.168.1.1/ 你可以试下这个网址，不同地区、运营商的【光猫路由器】访问网址可能不一样，可以咨询宽带运营商
 2. 输入超级管理员（必须要超级管理员账号，光猫上帖着的那个普通账号是不行的）账号：`telecomadmin`，密码：`nE7jA%5m`，大多数电信宽带都是这个账号和密码，如果你的不行，请电话咨询你的宽带运营商
 3. 进入 `应用` -> `高级NET设置` -> `DMZ设置`，输入你的【自有路由器】的入口IP（如何查看【自有路由器】入口IP，请参考第4点），保存。如果配置后没有生效，可以试下重启光猫。
+   ![自有路由器DMZ配置](https://raw.githubusercontent.com/daoying007/lambda-miner-tools/master/network-config/images/2.png)
 4. 查看【自有路由器】的入口IP，访问你的路由器查看，不同路由器查看方式都不一样，下图是我的路由里查看入口IP的地方，我的是 `192.168.1.3` ，如果你家也是电信宽带，很大概率是和我的一样的。
 5. 配置好后，再使用【第三步】第2点，检查能否通过外网IP能否访问矿机
 
