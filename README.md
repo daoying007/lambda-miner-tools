@@ -6,8 +6,9 @@
 
 
 
-## 主要功能
+## daoying007 原创的Lambda挖矿工具、教程
 
-1. lambda挖矿自动化定时刷单工具，使用文档：https://github.com/daoying007/lambda-miner-tools/blob/master/fillbid/README.md
-2. 解决了官方挖矿进程偶尔异常挂掉的问题（自动化每分钟检查一次，挖矿进程异常挂掉时会自动重启），使用文档：https://github.com/daoying007/lambda-miner-tools/blob/master/monitor/README.md
-3. Lambda 挖矿程序 docker 镜像，使用文档：https://github.com/daoying007/lambda-miner-docker
+1. Lambda矿工自动化定时定向刷单工具及使用方法：https://github.com/daoying007/lambda-miner-tools/blob/master/fillbid/README.md
+2. 解决官方挖矿进程偶尔异常挂掉工具及使用方法：https://github.com/daoying007/lambda-miner-tools/blob/master/monitor/README.md
+3. 公网IP、DMZ配置/端口映射等问题解决教程：https://github.com/daoying007/lambda-miner-tools/blob/master/network-config/README.md
+4. Lambda 挖矿程序 docker 镜像及使用文档：https://github.com/daoying007/lambda-miner-docker
